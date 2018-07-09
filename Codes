@@ -1,0 +1,13 @@
+Program to read xlsx files:
+> setwd("D:/acadgilds/rlecture/assignment 2")
+> library(readxl)
+> file.list = list.files(pattern='*.xlsx')
+> df.list.excel = lapply(file.list, read_excel)
+Output will be in df.list.excel
+
+Program to read csv files:
+> setwd("D:/acadgilds/rlecture/assignment 2")
+> library(readxl)
+> file.list = list.files(pattern='*.csv')
+> df.list.csv = lapply(file.list, read.csv)
+Output will be in df.list.csv
